@@ -98,7 +98,7 @@ Here's example code that will explain everything, and don't be intimidated, it's
 int main(void)
 {
   ShadingLang::Manager ShaderMan; // This class is for managing fragment shaders, and only fragment shaders
-	ShaderMan.Use("frag.bf"); // This member function  takes in a path to a shader file and compiles it for later use
+  ShaderMan.Use("frag.bf"); // This member function takes in a path to a shader file and compiles it for later use
   // Let's say frag.bf has a variable called `SomeVar`, and we want to access it. We will have to call the `GetVar` member function
   ShadingLang::Variable* SomeVar = ShaderMan.GetVar("main", "SomeVar");
   SomeVar->X = 10.0f; // Now we can directly access the contents of the variable
