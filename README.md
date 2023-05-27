@@ -121,7 +121,7 @@ int main(void)
   
   // Now lets execute a vertex shader. For this shader, it's highly recommended to use the `SingleManager` class, since it's not a fragment shader. Note though that it is single-threaded
   ShadingLang::SingleManager VertShaderMan;
-	ShaderMan.Use("vert.bf"); // Same as before
+  ShaderMan.Use("vert.bf"); // Same as before
   // Let's pass in an example vertex
   ShadingLang::Variable* InCoord = VertShaderMan.GetVar("main", "InCoord");
   InCoord->X = 0.5f;
