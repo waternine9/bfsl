@@ -46,7 +46,7 @@ int:main(vec3:FragCoord)
 ```
 
 ### Quick note
-If you are making a fragment shader, your main function will have to accept a `vec2:FragCoord` (current pixel position in the range of `[0, resolution]` and `vec3:OutColor` (normalized output color).  
+If you are making a fragment shader, your main function will have to accept a `vec2:FragCoord` (current pixel position in the range of 0 to resolution for each component) and `vec3:OutColor` (normalized output color).  
 If you are making any other kind of shader, there are no requirements
 ### End Quick Note
 
