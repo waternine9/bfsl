@@ -55,7 +55,7 @@ The operators available are:
 - `-`
 - `*`
 - `/`
-- `=`
+- `=`  
 There is also conditional operators, which unlike other operators that can work with any type, conditionals only work for floats, and can only be used in `while` loops or `if` statements
 - `==`
 - `<`
