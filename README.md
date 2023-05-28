@@ -9,7 +9,6 @@
 
 ## Alright, but how do I use it?
 
-It's as simple as 123!
 1. Link the static library found in the releases with your build system
 2. Include the header file, `shading.hpp'
 3. Start using it!
