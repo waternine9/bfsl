@@ -82,8 +82,7 @@ The built-in functions are:
 - `abs`: Returns the absolute of any input component-wise
 - `sin`: Computes the sine of a `float` input. Returns a `float`
 - `cos`: Computes the cosine of a `float` input. Returns a `float`
-- `sample`: Samples a pixel from the first input (must be `tex2d`) with the second input (must be `vec2`). Returns a `vec3`
--- Also, the second input is expected to be in the range of 0 to 1 on the X and Y components, otherwise it will repeat the texture
+- `sample`: Samples a pixel from the first input (must be `tex2d`) with the second input (must be `vec2`). Returns a `vec3`. Also, the second input is expected to be in the range of 0 to 1 on the X and Y components, otherwise it will repeat the texture
 - `clamp01` Takes in a `float` input and clamps it to 0 to 1. Returns a `float`
 
 ## Tutorial (for host code)
