@@ -127,7 +127,7 @@ int main(void)
   InCoord->X = 0.5f;
   InCoord->Y = -0.4f;
   InCoord->Z = 0.2f;
-  // Now execute (it executes synchronously, unlike the fragment shader
+  // Now execute (it executes synchronously, unlike the fragment shader)
   VertShaderMan.Execute();
   // Now let's print the output vertex
   std::cout << InCoord->X << " " << InCoord->Y << " " << InCoord->Z << "\n";
